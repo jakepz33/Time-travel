@@ -1,0 +1,17 @@
+.nav {
+  background-color: beige;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* global css in css-modules */
+
+.nav :global(.active) {
+  background-color: greenyellow;
+}
+/* :global(.test) {
+  background-color: red;
+} */
